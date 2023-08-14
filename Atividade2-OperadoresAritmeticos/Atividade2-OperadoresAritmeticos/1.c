@@ -5,6 +5,8 @@
 //  Created by Gabriel Eduardo on 14/08/23.
 //
 
+// Escreva um programa que receba dois números e mostre a soma, a subtração, a multiplicação e a divisão desses números.
+
 #include <stdio.h>
 
 int main(void) {
