@@ -5,6 +5,8 @@
 //  Created by Gabriel Eduardo on 15/08/23.
 //
 
+// Escreva um programa que pergunte qual o raio de um círculo e imprima a sua área. 
+
 #include <stdio.h>
 #include <math.h>
 
