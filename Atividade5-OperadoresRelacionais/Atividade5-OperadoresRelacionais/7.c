@@ -9,7 +9,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
     float nota1, nota2, nota3;
     float media;
 
