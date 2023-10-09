@@ -8,21 +8,18 @@
 #include <stdio.h>
 
 int main(void) {
-    int numAlunos = 15; // Número de alunos
-    float notas[numAlunos]; // Vetor para armazenar as notas
-    float somaNotas = 0.0; // Variável para a soma das notas
+    int numAlunos = 15;
+    float notas[numAlunos];
+    float somaNotas = 0.0;
 
-    // Leitura das notas dos alunos
     printf("Digite as notas das provas dos %d alunos:\n", numAlunos);
     for (int i = 0; i < numAlunos; i++) {
         scanf("%f", &notas[i]);
-        somaNotas += notas[i]; // Somando as notas à medida que são lidas
+        somaNotas += notas[i];
     }
 
-    // Cálculo da média geral
     float mediaGeral = somaNotas / numAlunos;
 
-    // Impressão da média geral
     printf("A média geral das notas é: %.2f\n", mediaGeral);
 
     return 0;

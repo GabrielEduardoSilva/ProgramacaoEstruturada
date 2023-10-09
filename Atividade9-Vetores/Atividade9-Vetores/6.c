@@ -27,7 +27,6 @@ int main(void) {
         }
     }
 
-    // Exibição do maior e do menor elemento
     printf("O maior elemento do vetor é: %d\n", maior);
     printf("O menor elemento do vetor é: %d\n", menor);
 

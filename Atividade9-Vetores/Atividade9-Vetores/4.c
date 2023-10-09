@@ -8,16 +8,14 @@
 #include <stdio.h>
 
 int main(void) {
-    int vetor[8]; // Vetor de 8 posições
-    int x, y;     // Posições x e y
+    int vetor[8]; 
+    int x, y;
 
-    // Leitura do vetor de 8 posições
     printf("Digite os 8 valores do vetor:\n");
     for (int i = 0; i < 8; i++) {
         scanf("%d", &vetor[i]);
     }
 
-    // Leitura das posições x e y
     printf("Digite as posições x e y (entre 0 e 7): ");
     scanf("%d %d", &x, &y);
 
